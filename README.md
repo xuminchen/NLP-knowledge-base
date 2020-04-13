@@ -1,5 +1,5 @@
 # NLP-knowledge-base
-NLP Notebook.\n
+NLP Notebook.
 
 Hey, I will share my notebook about my NLP learning. If you are a NLPer and want to help me to enrich this notebook, please let me know.
 
