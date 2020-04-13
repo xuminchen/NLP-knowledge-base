@@ -3,6 +3,7 @@
 ## Header
 
 参考资料：NLP的巨人肩膀（上）、（中）、（下）
+
 _Reference:https://www.jianshu.com/p/fa95963c9abd_
 _Reference:https://www.jianshu.com/p/81dddec296fa_
 _Reference:https://www.jianshu.com/p/922b2c12705b_
@@ -126,7 +127,7 @@ _Reference-《理解GloVe模型》:https://blog.csdn.net/coderTC/article/details
 word2vec是在NNLM上的突破，实际上并不算是一个深度学习神经网络，因为事实上它只有两层。word2vec也并不算得上一个模型，而是一个工具，真正的模型是word2vec后面的skip-gram和CBOW(Continue Bag-Of-Words)模型。
 
 Skip-gram和CBOW的模型结构：
-<img src="https://github.com/SimonXuminChen/NLP-knowledge-base/tree/master/pic/word2vec.png" alt="word2vec" style="zoom:50%;" />
+<img src="https://github.com/SimonXuminChen/NLP-knowledge-base/blob/master/pic/word2vec.png" alt="word2vec" style="zoom:50%;" />
 
 
 
@@ -180,7 +181,7 @@ RNN有三个权重矩阵，分别是:
 **这三个权重矩阵在任何时刻都是参数共享的。**
 
 #### RNN的网络结构
-<img src="https://github.com/SimonXuminChen/NLP-knowledge-base/tree/master/pic/RNN.jpg" alt="RNN" style="zoom:30%;" />
+<img src="https://github.com/SimonXuminChen/NLP-knowledge-base/blob/master/pic/RNN.jpg" alt="RNN" style="zoom:30%;" />
 
 #### FFNN(Feed-Forward Neural Network)：
 
@@ -221,7 +222,7 @@ LSTM有三个门，总共包含了六个计算步骤，每一个门简单的来�
 
 #### LSTM的网络结构：
 
-<img src="https://github.com/SimonXuminChen/NLP-knowledge-base/tree/master/pic/LSTM.png" alt="LSTM" style="zoom:50%;" />
+<img src="https://github.com/SimonXuminChen/NLP-knowledge-base/blob/master/pic/LSTM.png" alt="LSTM" style="zoom:50%;" />
 
 
 
@@ -282,7 +283,7 @@ GRU 和 LSTM 一样，都是RNN的优化改良版本，但是与LSTM不同的是
 
 #### Seq2Seq的网络结构
 
-![encoder-decoder](https://github.com/SimonXuminChen/NLP-knowledge-base/tree/master/pic/encoder-decoder.jpg)
+![encoder-decoder](https://github.com/SimonXuminChen/NLP-knowledge-base/blob/master/pic/encoder-decoder.jpg)
 
 #### EXAMPLE
 
@@ -343,7 +344,7 @@ _Reference-张俊林-《深度学习中的注意力机制》:https://zhuanlan.zh
 三个模型框架整合，输入和输出层都是CNN模型，不过该CNN的输入粒度是字符。中间是由Bi-LSTM组成的。
 
 **神经网络结构:**
-<img src="https://github.com/SimonXuminChen/NLP-knowledge-base/tree/master/pic/ELMo_1.png" alt="ELMo_1" style="zoom:75%;" />
+<img src="https://github.com/SimonXuminChen/NLP-knowledge-base/blob/master/pic/ELMo_1.png" alt="ELMo_1" style="zoom:75%;" />
 
 
 
@@ -369,7 +370,7 @@ _Reference-张俊林-《深度学习中的注意力机制》:https://zhuanlan.zh
 2. 接下来将这n个注意力头左右拼接在一起（首尾相连）
 3. 接着再乘以一个附加的权重矩阵$W_z$，得到一个融合所有注意力头的矩阵z，并送入下一层的FFNN中。
 
-<img src="https://github.com/SimonXuminChen/NLP-knowledge-base/tree/master/pic/multi-headed_self-attention.jpg" alt="multi-headed_self-attention" style="zoom:70%;" />
+<img src="https://github.com/SimonXuminChen/NLP-knowledge-base/blob/master/pic/multi-headed_self-attention.jpg" alt="multi-headed_self-attention" style="zoom:70%;" />
 
 
 
@@ -418,7 +419,7 @@ _Reference-《BERT大火却不懂Transformer？读这一篇就够了》:https://
 
 分句编码由我们定义，比如```Source:[CLS]+sentence(A)+[SEP]+sentence(B)+[SEP]```,那么属于sentence(A)的词的分句编码就为0，属于sentence(B)的词的分局编码就为1。
 
-<img src="https://github.com/SimonXuminChen/NLP-knowledge-base/tree/master/pic/Bert-embedding.jpg" alt="Bert-embedding" style="zoom:80%;" />
+<img src="https://github.com/SimonXuminChen/NLP-knowledge-base/blob/master/pic/Bert-embedding.jpg" alt="Bert-embedding" style="zoom:80%;" />
 
 #### Masked Language Model(MLM)
 
