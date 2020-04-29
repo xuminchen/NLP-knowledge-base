@@ -18,31 +18,5 @@ _Reference:_[https://www.jianshu.com/p/fa95963c9abd](https://www.jianshu.com/p/f
 
 比较复杂，未考虑上下文顺序关系，将前w-1个词当做输入。计算量大，训练效果低。
 
-### FastText
-
-结构与word2vec相似，但是输入的不再局限于词向量， 也可以结合n-gram的语言信息，同时输出也不再是单个词的概率分布，而是文本分类。所以这是一个监督模型
-
-### Skip-thought
-
-**To-Do:补充**
-
-### Quick-thought
-
-**To-Do:补充**
-
-### GPT
-
-**To-Do:补充**
-
-
-
-### ERNIE \(Enhanced Representation through Knowledge Integration\)
-
-为了中文设计的模型，结合了BERT。
-
-**To-Do**
-
-### Albert
-
-**To-Do:要学**
+### 
 
