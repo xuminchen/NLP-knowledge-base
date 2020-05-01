@@ -16,11 +16,9 @@ _Reference:_[https://www.jianshu.com/p/fa95963c9abd](https://www.jianshu.com/p/f
 
 ### 
 
-## Neural Network Language Model
+{% embed url="https://如果有错误的地方，欢迎指正，联系方式：19430019@life.hkbu.edu.hk" %}
 
-> NNLM一般用**最大对数似然**或**KL散度**作为损失函数。
 
-比较复杂，未考虑上下文顺序关系，将前w-1个词当做输入。计算量大，训练效果低。
 
 ### 
 
